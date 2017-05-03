@@ -1,0 +1,359 @@
+{
+  "menu": [
+    {
+      "section": "Кухня",
+      "id": "kitchen",
+      "image": "/static/images/kitchen.jpg",
+      "categories": [
+        {
+          "name": "Основные блюда",
+          "id": "main",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Отбивная",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "1",
+              "image": "/static/images/food.png",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Борщ",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "2",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Макарошки",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "3",
+              "image": "/static/images/food.png",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Стейк из говядины",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "4",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            }
+          ]
+        },
+        {
+          "name": "Паста",
+          "id": "main",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Отбивная",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "1",
+              "image": "/static/images/food.png",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Борщ",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "2",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Макарошки",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "3",
+              "image": "/static/images/food.png",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Стейк из говядины",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "4",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            }
+          ]
+        },
+
+        {
+          "name": "Дессерты",
+          "id": "desserts",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Мороженое",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "5",
+              "image": "/static/images/dessert.jpg",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Пироженое",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "6",
+              "image": "/static/images/dessert.jpg",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Торт",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "7",
+              "image": "/static/images/dessert.jpg",
+              "recommend": ["2", "4"]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "section": "Бар",
+      "id": "bar",
+      "image": "/static/images/bar.jpg",
+      "categories": [
+        {
+          "name": "Алкоголь",
+          "id": "alcohol",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Виски",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "8",
+              "image": "/static/images/alco.jpg",
+              "recommend": ["12", "7", "11"]
+            },
+            {
+              "name": "Пиво",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "9",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Скотч",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "10",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Джин",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "11",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            }
+          ]
+        },
+
+        {
+          "name": "Безалкоголь",
+          "id": "nonalcohol",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Молочный коктейль",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "12",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Вода",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "13",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Чай",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "14",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Американо",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "15",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Капучино",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "16",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Латте",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "17",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "section": "Кальяны",
+      "id": "hookah",
+      "image": "/static/images/shisha.jpg",
+      "categories": [
+        {
+          "name": "Вкусные",
+          "image": "/static/images/kitchen.jpg",
+          "id": "tasty",
+          "products": [
+            {
+              "name": "Яблоко",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "id": "18",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Манго",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "recommend": ["8", "7", "6", "14"],
+              "id": "19",
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Персик",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "recommend": ["8", "7", "6", "14"],
+              "id": "20",
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мята",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400",
+              "recommend": ["8", "7", "6", "14"],
+              "id": "21",
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Невкусные",
+          "image": "/static/images/kitchen.jpg",
+          "id": "notasty",
+          "products": [
+            {
+              "name": "Кокос",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "recommend": ["8", "7", "6", "14"],
+              "price": "400",
+              "id": "22",
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Малиновый",
+              "description": "Описание продукта",
+              "recommend": ["8", "7", "6", "14"],
+              "weight": "200г",
+              "price": "400",
+              "id": "23",
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мультифрукт",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "recommend": ["8", "7", "6", "14"],
+              "price": "400",
+              "id": "24",
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Кокос",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "recommend": ["8", "7", "6", "14"],
+              "price": "400",
+              "id": "25",
+              "image": "/static/images/food.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "about": {
+    "text": "Длинный текст в о нас"
+  },
+
+  "promo": [
+    {
+      "name": "Бесплатный кальянx",
+      "description": "При покупке салата кальян в подарок"
+    },
+    {
+      "name": "Бесплатный кальян",
+      "description": "При покупке салата кальян в подарок"
+    },
+    {
+      "name": "Бесплатный кальян",
+      "description": "При покупке салата кальян в подарок"
+    }
+  ]
+}
