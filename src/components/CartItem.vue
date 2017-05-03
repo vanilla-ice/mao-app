@@ -3,13 +3,13 @@
   .del(@click="store.commit({type: 'deleteProduct', product: product})")
     img(src="../assets/delete.svg")
   .name {{ product.name }}
-  .price {{ product.price }} ₽
+
   .count
     .minus(@click="store.commit({type: 'removeProduct', product: product})") -
     input(type="tel", :value="counter")
     .plus(@click="store.commit({type: 'addProduct', product: product})") +
   .sum
-    |{{ +counter * +product.price }} ₽
+    | шт
 </template>
 
 <script>

@@ -14,8 +14,7 @@
       .my-order(@click="togglePopup")
         .icon
           img(src="../assets/shopping-basket.svg")
-        .summ
-          | {{ price }} ₽
+
     .popup(v-if="isPopupShow")
       .order
         .order-title(v-if="products.length > 0") Ваш заказ
@@ -24,7 +23,6 @@
           cart-item(v-for="(product, index) in products", :productData="product", :key="index")
         .order-sum(v-if="products.length > 0")
           .clear(@click="store.commit('clearCart')") Очистить корзину
-          .sum Итого: {{price}} ₽
 </template>
 
 <script>

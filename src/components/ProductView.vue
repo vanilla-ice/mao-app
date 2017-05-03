@@ -144,9 +144,7 @@ export default {
     &-description {
       display: block;
       font-size: 14px;
-
-
-
+      text-align: left;
     }
 
     .add-button {
