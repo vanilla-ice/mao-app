@@ -72,6 +72,7 @@ export default {
     width: 80%;
     flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: flex-start;
     overflow-y: auto;
     padding-right: 2%;
     max-height: calc(100vh - 120px);
