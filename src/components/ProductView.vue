@@ -122,11 +122,19 @@ export default {
   width: 100%;
 
     &-image {
-        width: 50%;
+          width: 50%;
+          height: 65%;
+          position: relative;
+          overflow: hidden;
 
         img {
             display: block;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
             width: 100%;
+
         }
     }
 
